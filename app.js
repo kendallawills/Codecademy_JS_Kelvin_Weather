@@ -4,3 +4,5 @@ const kelvin = 293;
 const celsius = kelvin - 273;
 // Temperature in Fahrenheit
 let fahrenheit = celsius * (9 / 5) + 32;
+// Fahrenheit in Round Number
+fahrenheit = Math.floor(fahrenheit);
